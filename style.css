@@ -315,3 +315,55 @@ li {
 .toc-list a:hover {
   border-bottom-color: #8b5e3c;
 }
+/* ---------- 名词解释（附录） ---------- */
+
+.term-group-title {
+  font-family: Georgia, "Noto Serif SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 56px 0 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e5e1d8;
+  color: #1a1a1a;
+  scroll-margin-top: 80px;
+}
+
+.term-entry {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px dashed #ece8e0;
+}
+
+.term-entry:last-child {
+  border-bottom: none;
+}
+
+.term-entry h3 {
+  font-family: Georgia, "Noto Serif SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #8b5e3c;
+  letter-spacing: 0.04em;
+}
+
+.term-entry p {
+  font-size: 14.5px;
+  line-height: 1.85;
+  color: #333;
+  margin: 0 0 0.7em;
+  text-align: justify;
+}
+
+.term-entry .term-def {
+  font-size: 15px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.term-entry .term-ref {
+  font-size: 12.5px;
+  color: #999;
+  margin-top: 8px;
+  letter-spacing: 0.02em;
+}
