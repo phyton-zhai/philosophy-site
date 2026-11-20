@@ -367,3 +367,42 @@ li {
   margin-top: 8px;
   letter-spacing: 0.02em;
 }
+/* ---------- 固定页脚 ---------- */
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 0 20px;
+  background: #faf9f6;
+  border-top: 1px solid #e5e1d8;
+  font-size: 12px;
+  color: #777;
+  white-space: nowrap;
+  overflow-x: auto;
+  z-index: 99;
+  scrollbar-width: none;
+}
+
+.site-footer::-webkit-scrollbar {
+  display: none;
+}
+
+.site-footer a {
+  color: #8b5e3c;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.site-footer .footer-sep {
+  color: #d4c5b0;
+}
